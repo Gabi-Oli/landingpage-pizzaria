@@ -517,6 +517,18 @@ footer {
   font-size: .8rem;
 }
 
+footer ul{
+  list-style: none;
+}
+address{
+  margin-left: 60px;
+  text-align: center;
+  line-height: 1.5;
+}
+address h2{
+  margin-bottom: 5px;
+}
+
 /* Accessibility */
 :focus-visible {
   outline: 3px solid #ffb74d;
@@ -559,7 +571,12 @@ footer {
     grid-template-columns: 1fr;
     gap: 35px;
   }
+  
+  address{
+    margin-left: auto;
+  }
 }
+
 
 @media (max-width: 650px) {
   .header-inner {
