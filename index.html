@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sabor da Itália — pizzas artesanais com ingredientes frescos e entrega rápida.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Sabor da Itália | Pizzaria</title>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#inicio" aria-label="Sabor da Itália - início">Sabor da <span>Itália</span></a>
+
+      <nav class="nav-bar" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#vantagens">Vantagens</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <form action="#" method="get" class="search-form" role="search">
+        <label class="sr-only" for="campo-busca">Buscar no cardápio</label>
+        <input type="search" id="campo-busca" name="q" placeholder="Buscar..." aria-label="Buscar no cardápio">
+        <button type="submit" aria-label="Pesquisar">⌕</button>
+      </form>
+      <button type="submit">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img src="imgs/zuzi99-pizza-3010062.jpg" alt="Pizza italiana artesanal">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-conteudo">
+        <span class="eyebrow">Sabor artesanal em cada fatia</span>
+        <h1>As melhores pizzas italianas, feitas para você.</h1>
+        <p>Experimente pizzas preparadas com ingredientes frescos, massa fofinha e bordas crocantes.</p>
+        <div class="hero-actions">
+          <a href="#cardapio" class="botao botao-outline">Ver cardápio</a>
+          <a href="#contato" class="botao botao-cta">Fazer pedido</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="cardapio">
+      <div class="section-heading">
+        <span class="eyebrow eyebrow-dark">Nosso cardápio</span>
+        <h2>Conheça nossas pizzas</h2>
+        <p>Sabores clássicos preparados com carinho para deixar seu momento ainda mais especial.</p>
+        <a href="#contato" class="botao botao-cta">Personalize sua pizza</a>
+      </div>
+
+      <div class="cards-container">
+        <article class="card">
+          <img src="imgs/frango-e-catupiry-chicken-and-cream-cheese-pizza-v0-cuunalcjshue1.jpg" alt="Pizza de frango com catupiry" loading="lazy">
+          <div class="card-body">
+            <h3>Frango com Catupiry</h3>
+            <p>Frango temperado, catupiry cremoso e muito sabor.</p>
+            <div class="card-footer">
+              <strong>R$ 35,00</strong>
+              <a href="#contato" aria-label="Pedir pizza de frango com catupiry">Pedir</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="imgs/a-pizza-with-pepperoni-and-basil-leaves-on-it-png.png" alt="Pizza de calabresa com cebola" loading="lazy">
+          <div class="card-body">
+            <h3>Calabresa com Cebola</h3>
+            <p>Calabresa, cebola e temperos na medida certa.</p>
+            <div class="card-footer">
+              <strong>R$ 30,00</strong>
+              <a href="#contato" aria-label="Pedir pizza de calabresa com cebola">Pedir</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="imgs/nome-aqui-1466684810.png" alt="Pizza de mussarela com azeitona" loading="lazy">
+          <div class="card-body">
+            <h3>Mussarela com Azeitona</h3>
+            <p>Mussarela derretida, azeitonas e um toque especial.</p>
+            <div class="card-footer">
+              <strong>R$ 40,00</strong>
+              <a href="#contato" aria-label="Pedir pizza de mussarela com azeitona">Pedir</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="reviews-section" id="avaliacoes">
+      <div class="section-heading">
+        <span class="eyebrow eyebrow-dark">Quem prova, aprova</span>
+        <h2>O que nossos clientes dizem</h2>
+        <p>Confira algumas experiências de quem já pediu a Sabor da Itália.</p>
+      </div>
+
+      <div class="reviews">
+        <article class="review-card">
+          <img src="imgs/fotografia-profissional-foto-linkedin-profissional-institucional-itaim-bibi-brooklin-novo-brooklin-alto-de-pinheiros.png" alt="Daniela Souza" class="cliente" loading="lazy">
+          <div class="stars" aria-label="5 estrelas">★★★★★</div>
+          <h3>Daniela Souza</h3>
+          <p>Pizza de excelente qualidade. Super recomendo! Com certeza pedirei novamente.</p>
+        </article>
+
+        <article class="review-card">
+          <img src="imgs/pessoas-conceito-feminino-e-retrato-rosto-de-jovem-sorridente-feliz_380164-119771.jpg" alt="Lais Silva" class="cliente" loading="lazy">
+          <div class="stars" aria-label="5 estrelas">★★★★★</div>
+          <h3>Lais Silva</h3>
+          <p>Sabor incrível! Sempre quentinha e com recheio generoso. Sem igual.</p>
+        </article>
+
+        <article class="review-card">
+          <img src="imgs/example.png" alt="Paulo Henrique" class="cliente" loading="lazy">
+          <div class="stars" aria-label="5 estrelas">★★★★★</div>
+          <h3>Paulo Henrique</h3>
+          <p>Amei! Fresquinha, macia e temperada na medida certa. Voltarei a pedir.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="vantagens" id="vantagens">
+      <div class="section-heading">
+        <span class="eyebrow eyebrow-dark">Por que escolher a gente?</span>
+        <h2>Qualidade em cada etapa</h2>
+      </div>
+
+      <div class="choose-container">
+        <article class="choose-card">
+          <img src="imgs/depositphotos_70033531-stock-photo-pizza-cooking-ingredients.jpg" alt="Ingredientes frescos para pizza" loading="lazy">
+          <div>
+            <h3>Ingredientes de qualidade</h3>
+            <p>Utilizamos ingredientes frescos e selecionados para entregar mais sabor em cada pizza.</p>
+          </div>
+        </article>
+
+        <article class="choose-card">
+          <img src="imgs/young-man-working-for-a-food-delivery-service-checking-with-road-motorcycle-in-the-city.jpg" alt="Entregador realizando delivery" loading="lazy">
+          <div>
+            <h3>Entrega rápida</h3>
+            <p>Levamos seu pedido até você com agilidade e frete grátis na primeira compra.</p>
+          </div>
+        </article>
+
+        <article class="choose-card">
+          <img src="imgs/geschäftsmann-mit-lächeln-symbol-für-die-beste-bewertung-kundenzufriedenheitskonzept.jpg" alt="Cliente satisfeito" loading="lazy">
+          <div>
+            <h3>Clientes satisfeitos</h3>
+            <p>Nosso compromisso é conquistar sua preferência em cada pedido.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-inner">
+      <div class="subscribe-container">
+        <span class="eyebrow">Receba nossas ofertas</span>
+        <h2>Promoções direto no seu e-mail</h2>
+        <p>Cadastre seu e-mail e fique por dentro de descontos e novidades.</p>
+      </div>
+
+      <form class="subscribe-form" action="#" method="post">
+        <label for="email">Seu melhor e-mail</label>
+        <div class="input-group">
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="email" required>
+          <button type="submit" class="button-subscribe">Inscrever</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Sabor da Itália. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
