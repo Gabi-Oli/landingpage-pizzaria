@@ -10,6 +10,8 @@
 
 ---
 
+https://gabi-oli.github.io/landingpage-pizzaria/
+
 ## 📌 Sobre o Projeto
 
 A landing page **Sabor da Itália** foi desenvolvida para apresentar o cardápio, destaques, avaliações de clientes e diferenciais competitivos de uma pizzaria artesanal fictícia. 
